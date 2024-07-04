@@ -1,0 +1,13 @@
+kind load docker-image --name 123 akhlab.com:5002/tigera/operator:v1.32.5
+kind load docker-image --name 123 akhlab.com:5002/calico/typha:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/ctl:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/node:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/cni:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/apiserver:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/kube-controllers:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/dikastes:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/pod2daemon-flexvol:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/csi:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/node-driver-registrar:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/node-windows:v3.27.2
+kind load docker-image --name 123 akhlab.com:5002/calico/cni-windows:v3.27.2

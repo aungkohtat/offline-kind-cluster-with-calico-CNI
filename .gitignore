@@ -1,0 +1,36 @@
+# Vagrant
+.vagrant/
+*.log
+*.box
+
+# Kubernetes
+*.kubeconfig
+.kube/
+
+# Docker
+.docker/
+*.dockerignore
+docker-compose.override.yml
+
+# Shared between Vagrant, Kubernetes, and Docker
+*.env
+*.env.*
+!.env.example
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+build/
+dist/
+
+# IDE-specific files (optional, uncomment if needed)
+# .vscode/
+# .idea/
